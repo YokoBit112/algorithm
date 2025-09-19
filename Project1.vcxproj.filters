@@ -1,0 +1,592 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="资源文件\Sundries">
+      <UniqueIdentifier>{96a22e80-ceae-48cc-b88d-daeb7f953dae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\刷题">
+      <UniqueIdentifier>{ec9dd36b-10ad-4954-87d3-c57e68af628b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\AutoGo">
+      <UniqueIdentifier>{31690c4e-6c3d-4de7-8f72-2daed57ed571}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\AutoGo\AutoGoNo1">
+      <UniqueIdentifier>{bef3198f-d0d1-48d2-b20b-7258b25d4036}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\AutoGo\AutoGoNo1\AutoGoNo2">
+      <UniqueIdentifier>{b9b7d2cc-e8f9-4ecf-9f12-acd03858725f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\Sundries\compelete">
+      <UniqueIdentifier>{fa4ad18a-2a6d-4191-bbff-efb84bf2de59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\AutoGo\T2">
+      <UniqueIdentifier>{377164b3-e6df-4f91-8050-40f7703b8f44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\刷题\12.22">
+      <UniqueIdentifier>{9d72686b-3daa-4a49-a661-7df79b9688ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\刷题\不自量力系列">
+      <UniqueIdentifier>{713e402c-82e4-4aaf-aa8f-c1b5d88f69d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\刷题\m.12">
+      <UniqueIdentifier>{8a4f4010-543f-4fe9-b548-adf1bc00fb7c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\刷题\2025">
+      <UniqueIdentifier>{eeefe90d-ef86-4fb6-b73f-c57156ef3ef9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\刷题\2025\3">
+      <UniqueIdentifier>{64c63f03-eaeb-4d7e-930e-b9842c6a1780}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\刷题\2025\Sundries">
+      <UniqueIdentifier>{26217e47-f800-409a-90f7-ef1abb9dc523}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\刷题\2025\3\CodeForce">
+      <UniqueIdentifier>{0fb606c5-59dd-4bae-a698-da3dcb626138}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\刷题\2025\3\CodeForce\Round 1012 div.2">
+      <UniqueIdentifier>{2c114243-3e5b-4ef3-83ad-565830e9bb0a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\刷题\2025\3\Luogu">
+      <UniqueIdentifier>{10509018-ce31-478b-ae88-08e9440913f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\刷题\2025\4">
+      <UniqueIdentifier>{6be81136-fe49-4ad5-9a49-e1d89144f404}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\刷题\2025\5">
+      <UniqueIdentifier>{f6cdc736-c1f7-46c9-82ff-c2f0dd50a09d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\刷题\2025\6">
+      <UniqueIdentifier>{3feeb860-bf49-4ace-a07b-83f2672899f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\刷题\2025\7">
+      <UniqueIdentifier>{67ecd840-0741-4fe2-9e65-0c4c64a16542}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\刷题\2025\8">
+      <UniqueIdentifier>{fd269bf4-573b-40c4-937a-a4e3e08e9964}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\刷题\2025\9">
+      <UniqueIdentifier>{f576be42-7a22-419d-b8c9-33ebdaf1d5a9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="HomeWork1.cpp">
+      <Filter>资源文件\AutoGo\AutoGoNo1\AutoGoNo2</Filter>
+    </ClCompile>
+    <ClCompile Include="HomeWork2.c">
+      <Filter>资源文件\AutoGo\AutoGoNo1\AutoGoNo2</Filter>
+    </ClCompile>
+    <ClCompile Include="HomeWork3.c">
+      <Filter>资源文件\AutoGo\AutoGoNo1\AutoGoNo2</Filter>
+    </ClCompile>
+    <ClCompile Include="HomeWork4.c">
+      <Filter>资源文件\AutoGo\AutoGoNo1\AutoGoNo2</Filter>
+    </ClCompile>
+    <ClCompile Include="HomeWork5.c">
+      <Filter>资源文件\AutoGo\AutoGoNo1\AutoGoNo2</Filter>
+    </ClCompile>
+    <ClCompile Include="HomeWork6.c">
+      <Filter>资源文件\AutoGo\AutoGoNo1\AutoGoNo2</Filter>
+    </ClCompile>
+    <ClCompile Include="HomeWork7.c">
+      <Filter>资源文件\AutoGo\AutoGoNo1\AutoGoNo2</Filter>
+    </ClCompile>
+    <ClCompile Include="HomeWork8.c">
+      <Filter>资源文件\AutoGo\AutoGoNo1\AutoGoNo2</Filter>
+    </ClCompile>
+    <ClCompile Include="1-1.c">
+      <Filter>资源文件\AutoGo\AutoGoNo1</Filter>
+    </ClCompile>
+    <ClCompile Include="1-2.c">
+      <Filter>资源文件\AutoGo\AutoGoNo1</Filter>
+    </ClCompile>
+    <ClCompile Include="1-3.c">
+      <Filter>资源文件\AutoGo\AutoGoNo1</Filter>
+    </ClCompile>
+    <ClCompile Include="AutoGoTest.cpp">
+      <Filter>资源文件\AutoGo</Filter>
+    </ClCompile>
+    <ClCompile Include="p2433.cpp">
+      <Filter>资源文件\刷题\12.22</Filter>
+    </ClCompile>
+    <ClCompile Include="p3397.cpp">
+      <Filter>资源文件\刷题\12.22</Filter>
+    </ClCompile>
+    <ClCompile Include="p3397-2.cpp">
+      <Filter>资源文件\刷题\12.22</Filter>
+    </ClCompile>
+    <ClCompile Include="P5461.cpp">
+      <Filter>资源文件\刷题\12.22</Filter>
+    </ClCompile>
+    <ClCompile Include="p5717.cpp">
+      <Filter>资源文件\刷题\12.22</Filter>
+    </ClCompile>
+    <ClCompile Include="shit.cpp">
+      <Filter>资源文件\刷题\12.22</Filter>
+    </ClCompile>
+    <ClCompile Include="力扣1002.NoRepetitiveLongestString.cpp">
+      <Filter>资源文件\刷题\12.22</Filter>
+    </ClCompile>
+    <ClCompile Include="Dp1.cpp">
+      <Filter>资源文件\刷题\12.22</Filter>
+    </ClCompile>
+    <ClCompile Include="p1042.cpp">
+      <Filter>资源文件\刷题\12.22</Filter>
+    </ClCompile>
+    <ClCompile Include="p1055.cpp">
+      <Filter>资源文件\刷题\12.22</Filter>
+    </ClCompile>
+    <ClCompile Include="p1065.cpp">
+      <Filter>资源文件\刷题\12.22</Filter>
+    </ClCompile>
+    <ClCompile Include="p1065-2.cpp">
+      <Filter>资源文件\刷题\12.22</Filter>
+    </ClCompile>
+    <ClCompile Include="p1125.cpp">
+      <Filter>资源文件\刷题\12.22</Filter>
+    </ClCompile>
+    <ClCompile Include="p1303高精乘法.cpp">
+      <Filter>资源文件\刷题\12.22</Filter>
+    </ClCompile>
+    <ClCompile Include="p1496.cpp">
+      <Filter>资源文件\刷题\12.22</Filter>
+    </ClCompile>
+    <ClCompile Include="p1518.cpp">
+      <Filter>资源文件\刷题\12.22</Filter>
+    </ClCompile>
+    <ClCompile Include="p1518-2.cpp">
+      <Filter>资源文件\刷题\12.22</Filter>
+    </ClCompile>
+    <ClCompile Include="P1563.cpp">
+      <Filter>资源文件\刷题\12.22</Filter>
+    </ClCompile>
+    <ClCompile Include="p1601.cpp">
+      <Filter>资源文件\刷题\12.22</Filter>
+    </ClCompile>
+    <ClCompile Include="p1719.cpp">
+      <Filter>资源文件\刷题\12.22</Filter>
+    </ClCompile>
+    <ClCompile Include="10转2.cpp">
+      <Filter>资源文件\Sundries\compelete</Filter>
+    </ClCompile>
+    <ClCompile Include="bzdsgs.cpp">
+      <Filter>资源文件\Sundries\compelete</Filter>
+    </ClCompile>
+    <ClCompile Include="FindCharH.cpp">
+      <Filter>资源文件\Sundries\compelete</Filter>
+    </ClCompile>
+    <ClCompile Include="FindCharN.cpp">
+      <Filter>资源文件\Sundries\compelete</Filter>
+    </ClCompile>
+    <ClCompile Include="lanqiao1.cpp">
+      <Filter>资源文件\Sundries\compelete</Filter>
+    </ClCompile>
+    <ClCompile Include="MaoPaoSort.c">
+      <Filter>资源文件\Sundries\compelete</Filter>
+    </ClCompile>
+    <ClCompile Include="struct.cpp">
+      <Filter>资源文件\Sundries\compelete</Filter>
+    </ClCompile>
+    <ClCompile Include="sys.c">
+      <Filter>资源文件\Sundries\compelete</Filter>
+    </ClCompile>
+    <ClCompile Include="unknow.cpp">
+      <Filter>资源文件\Sundries\compelete</Filter>
+    </ClCompile>
+    <ClCompile Include="高精暴解斐波那契.cpp">
+      <Filter>资源文件\Sundries\compelete</Filter>
+    </ClCompile>
+    <ClCompile Include="高精单数阶乘.cpp">
+      <Filter>资源文件\Sundries\compelete</Filter>
+    </ClCompile>
+    <ClCompile Include="高精阶乘.cpp">
+      <Filter>资源文件\Sundries\compelete</Filter>
+    </ClCompile>
+    <ClCompile Include="勒让德多项式.cpp">
+      <Filter>资源文件\Sundries\compelete</Filter>
+    </ClCompile>
+    <ClCompile Include="求完数.cpp">
+      <Filter>资源文件\Sundries\compelete</Filter>
+    </ClCompile>
+    <ClCompile Include="三数求最大值四种方法.cpp">
+      <Filter>资源文件\Sundries\compelete</Filter>
+    </ClCompile>
+    <ClCompile Include="T2N1.cpp">
+      <Filter>资源文件\AutoGo\T2</Filter>
+    </ClCompile>
+    <ClCompile Include="T2N2.cpp">
+      <Filter>资源文件\AutoGo\T2</Filter>
+    </ClCompile>
+    <ClCompile Include="T2N3.cpp">
+      <Filter>资源文件\AutoGo\T2</Filter>
+    </ClCompile>
+    <ClCompile Include="T2N4.cpp">
+      <Filter>资源文件\AutoGo\T2</Filter>
+    </ClCompile>
+    <ClCompile Include="T2N5.cpp">
+      <Filter>资源文件\AutoGo\T2</Filter>
+    </ClCompile>
+    <ClCompile Include="三天打鱼两天晒网.cpp">
+      <Filter>资源文件\Sundries\compelete</Filter>
+    </ClCompile>
+    <ClCompile Include="结构体唐.cpp">
+      <Filter>资源文件\Sundries\compelete</Filter>
+    </ClCompile>
+    <ClCompile Include="暴力排序.cpp">
+      <Filter>资源文件\Sundries\compelete</Filter>
+    </ClCompile>
+    <ClCompile Include="p1249.cpp">
+      <Filter>资源文件\刷题\12.22</Filter>
+    </ClCompile>
+    <ClCompile Include="p1786.cpp">
+      <Filter>资源文件\刷题\12.22</Filter>
+    </ClCompile>
+    <ClCompile Include="P1045 暴力超时.cpp">
+      <Filter>资源文件\刷题\12.22</Filter>
+    </ClCompile>
+    <ClCompile Include="P1045 高精快速幂.cpp">
+      <Filter>资源文件\刷题\12.22</Filter>
+    </ClCompile>
+    <ClCompile Include="p1271 桶排.cpp">
+      <Filter>资源文件\刷题\12.22</Filter>
+    </ClCompile>
+    <ClCompile Include="6.cpp">
+      <Filter>资源文件\Sundries\compelete</Filter>
+    </ClCompile>
+    <ClCompile Include="p1177 双路快排.cpp">
+      <Filter>资源文件\刷题\12.22</Filter>
+    </ClCompile>
+    <ClCompile Include="p1293.cpp">
+      <Filter>资源文件\刷题\12.22</Filter>
+    </ClCompile>
+    <ClCompile Include="p3105-2.cpp">
+      <Filter>资源文件\刷题\12.22</Filter>
+    </ClCompile>
+    <ClCompile Include="p3105.cpp">
+      <Filter>资源文件\刷题\12.22</Filter>
+    </ClCompile>
+    <ClCompile Include="p1059.cpp">
+      <Filter>资源文件\刷题\12.22</Filter>
+    </ClCompile>
+    <ClCompile Include="p8897.cpp">
+      <Filter>资源文件\刷题\12.22</Filter>
+    </ClCompile>
+    <ClCompile Include="p1004.cpp">
+      <Filter>资源文件\刷题\12.22</Filter>
+    </ClCompile>
+    <ClCompile Include="p1004-2.cpp">
+      <Filter>资源文件\刷题\12.22</Filter>
+    </ClCompile>
+    <ClCompile Include="ts41047.cpp">
+      <Filter>资源文件\刷题\12.22</Filter>
+    </ClCompile>
+    <ClCompile Include="t541045.cpp">
+      <Filter>资源文件\刷题\12.22</Filter>
+    </ClCompile>
+    <ClCompile Include="p3799.cpp">
+      <Filter>资源文件\刷题\12.22</Filter>
+    </ClCompile>
+    <ClCompile Include="p1255.cpp">
+      <Filter>资源文件\刷题\12.22</Filter>
+    </ClCompile>
+    <ClCompile Include="t541048.cpp">
+      <Filter>资源文件\刷题\12.22</Filter>
+    </ClCompile>
+    <ClCompile Include="p1005.cpp">
+      <Filter>资源文件\刷题\不自量力系列</Filter>
+    </ClCompile>
+    <ClCompile Include="p1006.cpp">
+      <Filter>资源文件\刷题\不自量力系列</Filter>
+    </ClCompile>
+    <ClCompile Include="p1553.cpp">
+      <Filter>资源文件\刷题\m.12</Filter>
+    </ClCompile>
+    <ClCompile Include="p1928.cpp">
+      <Filter>资源文件\刷题\m.12</Filter>
+    </ClCompile>
+    <ClCompile Include="p1044.cpp">
+      <Filter>资源文件\刷题\m.12</Filter>
+    </ClCompile>
+    <ClCompile Include="补零.cpp">
+      <Filter>资源文件\Sundries\compelete</Filter>
+    </ClCompile>
+    <ClCompile Include="p1028.cpp">
+      <Filter>资源文件\刷题\m.12</Filter>
+    </ClCompile>
+    <ClCompile Include="p1498.cpp">
+      <Filter>资源文件\刷题\m.12</Filter>
+    </ClCompile>
+    <ClCompile Include="asd.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="dinnerwork.cpp">
+      <Filter>资源文件\Sundries\compelete</Filter>
+    </ClCompile>
+    <ClCompile Include="3.cpp">
+      <Filter>资源文件\刷题\2025\Sundries</Filter>
+    </ClCompile>
+    <ClCompile Include="4.cpp">
+      <Filter>资源文件\刷题\2025\Sundries</Filter>
+    </ClCompile>
+    <ClCompile Include="5.cpp">
+      <Filter>资源文件\刷题\2025\Sundries</Filter>
+    </ClCompile>
+    <ClCompile Include="C.cpp">
+      <Filter>资源文件\刷题\2025\Sundries</Filter>
+    </ClCompile>
+    <ClCompile Include="神金.cpp">
+      <Filter>资源文件\刷题\2025\Sundries</Filter>
+    </ClCompile>
+    <ClCompile Include="源.cpp">
+      <Filter>资源文件\刷题\2025\Sundries</Filter>
+    </ClCompile>
+    <ClCompile Include="源1.cpp">
+      <Filter>资源文件\刷题\2025\Sundries</Filter>
+    </ClCompile>
+    <ClCompile Include="源2.cpp">
+      <Filter>资源文件\刷题\2025\Sundries</Filter>
+    </ClCompile>
+    <ClCompile Include="源3.cpp">
+      <Filter>资源文件\刷题\2025\Sundries</Filter>
+    </ClCompile>
+    <ClCompile Include="p1160.cpp">
+      <Filter>资源文件\刷题\2025\3\Luogu</Filter>
+    </ClCompile>
+    <ClCompile Include="p1168.cpp">
+      <Filter>资源文件\刷题\2025\3\Luogu</Filter>
+    </ClCompile>
+    <ClCompile Include="p1801.cpp">
+      <Filter>资源文件\刷题\2025\3\Luogu</Filter>
+    </ClCompile>
+    <ClCompile Include="p1908.cpp">
+      <Filter>资源文件\刷题\2025\3\Luogu</Filter>
+    </ClCompile>
+    <ClCompile Include="P8597.cpp">
+      <Filter>资源文件\刷题\2025\3\Luogu</Filter>
+    </ClCompile>
+    <ClCompile Include="p8598.cpp">
+      <Filter>资源文件\刷题\2025\3\Luogu</Filter>
+    </ClCompile>
+    <ClCompile Include="p8599.cpp">
+      <Filter>资源文件\刷题\2025\3\Luogu</Filter>
+    </ClCompile>
+    <ClCompile Include="p8600 未完成.cpp">
+      <Filter>资源文件\刷题\2025\3\Luogu</Filter>
+    </ClCompile>
+    <ClCompile Include="p8602.cpp">
+      <Filter>资源文件\刷题\2025\3\Luogu</Filter>
+    </ClCompile>
+    <ClCompile Include="p8603.cpp">
+      <Filter>资源文件\刷题\2025\3\Luogu</Filter>
+    </ClCompile>
+    <ClCompile Include="p8604.cpp">
+      <Filter>资源文件\刷题\2025\3\Luogu</Filter>
+    </ClCompile>
+    <ClCompile Include="p8605.cpp">
+      <Filter>资源文件\刷题\2025\3\Luogu</Filter>
+    </ClCompile>
+    <ClCompile Include="p8607 委婉陈.cpp">
+      <Filter>资源文件\刷题\2025\3\Luogu</Filter>
+    </ClCompile>
+    <ClCompile Include="p8611.cpp">
+      <Filter>资源文件\刷题\2025\3\Luogu</Filter>
+    </ClCompile>
+    <ClCompile Include="p8612.cpp">
+      <Filter>资源文件\刷题\2025\3\Luogu</Filter>
+    </ClCompile>
+    <ClCompile Include="p8613.cpp">
+      <Filter>资源文件\刷题\2025\3\Luogu</Filter>
+    </ClCompile>
+    <ClCompile Include="p8614.cpp">
+      <Filter>资源文件\刷题\2025\3\Luogu</Filter>
+    </ClCompile>
+    <ClCompile Include="p8740.cpp">
+      <Filter>资源文件\刷题\2025\3\Luogu</Filter>
+    </ClCompile>
+    <ClCompile Include="Data Structure 2.cpp">
+      <Filter>资源文件\刷题\2025\Sundries</Filter>
+    </ClCompile>
+    <ClCompile Include="float2str.cpp">
+      <Filter>资源文件\刷题\2025\Sundries</Filter>
+    </ClCompile>
+    <ClCompile Include="kjs1,cpp.cpp">
+      <Filter>资源文件\刷题\2025\Sundries</Filter>
+    </ClCompile>
+    <ClCompile Include="ks.cpp">
+      <Filter>资源文件\刷题\2025\Sundries</Filter>
+    </ClCompile>
+    <ClCompile Include="A.cpp">
+      <Filter>资源文件\刷题\2025\3\CodeForce\Round 1012 div.2</Filter>
+    </ClCompile>
+    <ClCompile Include="B.cpp">
+      <Filter>资源文件\刷题\2025\3\CodeForce\Round 1012 div.2</Filter>
+    </ClCompile>
+    <ClCompile Include="ct.cpp">
+      <Filter>资源文件\刷题\2025\3\CodeForce\Round 1012 div.2</Filter>
+    </ClCompile>
+    <ClCompile Include="p8678 填空题 DE未完成.cpp">
+      <Filter>资源文件\刷题\2025\3\Luogu</Filter>
+    </ClCompile>
+    <ClCompile Include="p8662.cpp">
+      <Filter>资源文件\刷题\2025\3\Luogu</Filter>
+    </ClCompile>
+    <ClCompile Include="p3958.cpp">
+      <Filter>资源文件\刷题\2025\3\Luogu</Filter>
+    </ClCompile>
+    <ClCompile Include="p2196.cpp">
+      <Filter>资源文件\刷题\2025\3\Luogu</Filter>
+    </ClCompile>
+    <ClCompile Include="p8673.cpp">
+      <Filter>资源文件\刷题\2025\3\Luogu</Filter>
+    </ClCompile>
+    <ClCompile Include="p10578.cpp">
+      <Filter>资源文件\刷题\2025\3\Luogu</Filter>
+    </ClCompile>
+    <ClCompile Include="p10386.cpp">
+      <Filter>资源文件\刷题\2025\3\Luogu</Filter>
+    </ClCompile>
+    <ClCompile Include="p8647.cpp">
+      <Filter>资源文件\刷题\2025\3\Luogu</Filter>
+    </ClCompile>
+    <ClCompile Include="p8799.cpp">
+      <Filter>资源文件\刷题\2025\4</Filter>
+    </ClCompile>
+    <ClCompile Include="p8800.cpp">
+      <Filter>资源文件\刷题\2025\4</Filter>
+    </ClCompile>
+    <ClCompile Include="p8801 暴力90分.cpp">
+      <Filter>资源文件\刷题\2025\4</Filter>
+    </ClCompile>
+    <ClCompile Include="p8618 暴搜.cpp">
+      <Filter>资源文件\刷题\2025\4</Filter>
+    </ClCompile>
+    <ClCompile Include="p8618 线段树.cpp">
+      <Filter>资源文件\刷题\2025\4</Filter>
+    </ClCompile>
+    <ClCompile Include="p8801 dp.cpp">
+      <Filter>资源文件\刷题\2025\4</Filter>
+    </ClCompile>
+    <ClCompile Include="p8782.cpp">
+      <Filter>资源文件\刷题\2025\4</Filter>
+    </ClCompile>
+    <ClCompile Include="p8783.cpp">
+      <Filter>资源文件\刷题\2025\4</Filter>
+    </ClCompile>
+    <ClCompile Include="p8784 暴力.cpp">
+      <Filter>资源文件\刷题\2025\4</Filter>
+    </ClCompile>
+    <ClCompile Include="p8785.cpp">
+      <Filter>资源文件\刷题\2025\4</Filter>
+    </ClCompile>
+    <ClCompile Include="p8785 二分.cpp">
+      <Filter>资源文件\刷题\2025\4</Filter>
+    </ClCompile>
+    <ClCompile Include="高精板子.cpp">
+      <Filter>资源文件\刷题\2025\4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Users\Urma\Desktop\WorkShip\main.cpp">
+      <Filter>资源文件\刷题\2025\5</Filter>
+    </ClCompile>
+    <ClCompile Include="未命名1.cpp">
+      <Filter>资源文件\刷题\2025\5</Filter>
+    </ClCompile>
+    <ClCompile Include="P8615.cpp">
+      <Filter>资源文件\刷题\2025\6</Filter>
+    </ClCompile>
+    <ClCompile Include="p8618重打.cpp">
+      <Filter>资源文件\刷题\2025\6</Filter>
+    </ClCompile>
+    <ClCompile Include="jx1.cpp">
+      <Filter>资源文件\刷题\2025\7</Filter>
+    </ClCompile>
+    <ClCompile Include="jx2.cpp">
+      <Filter>资源文件\刷题\2025\7</Filter>
+    </ClCompile>
+    <ClCompile Include="2130A.cpp">
+      <Filter>资源文件\刷题\2025\8</Filter>
+    </ClCompile>
+    <ClCompile Include="2132B.cpp">
+      <Filter>资源文件\刷题\2025\8</Filter>
+    </ClCompile>
+    <ClCompile Include="2132C1.cpp">
+      <Filter>资源文件\刷题\2025\8</Filter>
+    </ClCompile>
+    <ClCompile Include="2131Ccpp.cpp">
+      <Filter>资源文件\刷题\2025\8</Filter>
+    </ClCompile>
+    <ClCompile Include="周赛.cpp">
+      <Filter>资源文件\刷题\2025\8</Filter>
+    </ClCompile>
+    <ClCompile Include="2130B.cpp">
+      <Filter>资源文件\刷题\2025\8</Filter>
+    </ClCompile>
+    <ClCompile Include="2134C.cpp">
+      <Filter>资源文件\刷题\2025\9</Filter>
+    </ClCompile>
+    <ClCompile Include="2131E.cpp">
+      <Filter>资源文件\刷题\2025\9</Filter>
+    </ClCompile>
+    <ClCompile Include="2132C2.cpp">
+      <Filter>资源文件\刷题\2025\9</Filter>
+    </ClCompile>
+    <ClCompile Include="2131D.cpp">
+      <Filter>资源文件\刷题\2025\9</Filter>
+    </ClCompile>
+    <ClCompile Include="1047div3.cpp">
+      <Filter>资源文件\刷题\2025\9</Filter>
+    </ClCompile>
+    <ClCompile Include="1047div3C.cpp">
+      <Filter>资源文件\刷题\2025\9</Filter>
+    </ClCompile>
+    <ClCompile Include="2137D.cpp">
+      <Filter>资源文件\刷题\2025\9</Filter>
+    </ClCompile>
+    <ClCompile Include="2137E.cpp">
+      <Filter>资源文件\刷题\2025\9</Filter>
+    </ClCompile>
+    <ClCompile Include="104385J.cpp">
+      <Filter>资源文件\刷题\2025\9</Filter>
+    </ClCompile>
+    <ClCompile Include="104385K.cpp">
+      <Filter>资源文件\刷题\2025\9</Filter>
+    </ClCompile>
+    <ClCompile Include="105231H.cpp">
+      <Filter>资源文件\刷题\2025\9</Filter>
+    </ClCompile>
+    <ClCompile Include="ASIAEC1B.cpp">
+      <Filter>资源文件\刷题\2025\9</Filter>
+    </ClCompile>
+    <ClCompile Include="ASIAECA.cpp">
+      <Filter>资源文件\刷题\2025\9</Filter>
+    </ClCompile>
+    <ClCompile Include="bt1.1.cpp">
+      <Filter>资源文件\刷题\2025\9</Filter>
+    </ClCompile>
+    <ClCompile Include="bt1.2.cpp">
+      <Filter>资源文件\刷题\2025\9</Filter>
+    </ClCompile>
+    <ClCompile Include="mian.c">
+      <Filter>资源文件\刷题\2025\9</Filter>
+    </ClCompile>
+    <ClCompile Include="P6025.cpp">
+      <Filter>资源文件\刷题\2025\9</Filter>
+    </ClCompile>
+    <ClCompile Include="源4.cpp">
+      <Filter>资源文件\刷题\2025\9</Filter>
+    </ClCompile>
+    <ClCompile Include="源5.cpp">
+      <Filter>资源文件\刷题\2025\9</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
