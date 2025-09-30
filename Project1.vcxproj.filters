@@ -600,5 +600,8 @@
     <ClCompile Include="tessss.cpp">
       <Filter>资源文件\刷题\2025\9</Filter>
     </ClCompile>
+    <ClCompile Include="2149A.cpp">
+      <Filter>资源文件\刷题\2025\9</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
