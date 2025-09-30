@@ -79,6 +79,9 @@
     <Filter Include="资源文件\刷题\2025\9">
       <UniqueIdentifier>{f576be42-7a22-419d-b8c9-33ebdaf1d5a9}</UniqueIdentifier>
     </Filter>
+    <Filter Include="资源文件\AutoGo\2025autoGo题解">
+      <UniqueIdentifier>{b8e96e54-4403-4871-969b-2391afd8a713}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="HomeWork1.cpp">
@@ -602,6 +605,12 @@
     </ClCompile>
     <ClCompile Include="2149A.cpp">
       <Filter>资源文件\刷题\2025\9</Filter>
+    </ClCompile>
+    <ClCompile Include="T667907.cpp">
+      <Filter>资源文件\AutoGo\2025autoGo题解</Filter>
+    </ClCompile>
+    <ClCompile Include="T667909.cpp">
+      <Filter>资源文件\AutoGo\2025autoGo题解</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
