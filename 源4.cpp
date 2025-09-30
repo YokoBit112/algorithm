@@ -111,168 +111,206 @@ bool writeStringToFile(const std::string& filename, const std::string& content, 
 //	}
 //}
 
-string distr = "0123456789QWERTYUIOPASDFGHJKLZXCVBNMqwertyuiopasdfghjklzxcvbnm";
-string thdir = "ASDFGHJKLQWERTYUIOPZXCVBNM";
-string stadir[3] = { "AC","WA","OJ" };
-int n, m, k;
-struct hak {
-	int ac = 0;
-	int fa[24];
-	int oj = 0;
-	int timee = 0;
-	bool bj[24];
-};
+//string distr = "0123456789QWERTYUIOPASDFGHJKLZXCVBNMqwertyuiopasdfghjklzxcvbnm";
+//string thdir = "ASDFGHJKLQWERTYUIOPZXCVBNM";
+//string stadir[3] = { "AC","WA","OJ" };
+//int n, m, k;
+//struct hak {
+//	int ac = 0;
+//	int fa[24];
+//	int oj = 0;
+//	int timee = 0;
+//	bool bj[24];
+//};
+//
+//struct he {
+//	string name;
+//	char th;
+//	int timee;
+//	string state;
+//};
+//
+//struct hek {
+//	string name;
+//	int ac;
+//	int oj;
+//	int timee = 0;
+//};
+//
+//map<string, hak> str;
+//vector<he> listt;
+//vector<hek> reslis;
+//
+//bool cmp(he a, he b) {
+//	return a.timee < b.timee;
+//}
+//
+//bool cmpe(hek a, hek b) {
+//	if (a.ac != b.ac) {
+//		return a.ac > b.ac;
+//	}
+//	if (a.timee != b.timee) {
+//		return a.timee < b.timee;
+//	}
+//	return a.name < b.name;
+//}
+//
+//void solveH(int ie) {
+//	sort(listt.begin(), listt.end(), cmp);
+//	for (auto& pair : listt)
+//	{
+//		string lab = pair.name;
+//		if (pair.state == "OJ")str[lab].oj++;
+//		else if (pair.state == "AC") {
+//			if (!str[lab].bj[pair.th - 'A'])
+//			{
+//				str[lab].ac++;
+//				str[lab].timee += pair.timee + str[lab].fa[pair.th - 'A'];
+//				str[lab].bj[pair.th - 'A'] = 1;
+//			}
+//		}
+//		else {
+//			str[lab].fa[pair.th - 'A'] += 20;
+//		}
+//	}
+//	for (auto& pair : str) {
+//		string tempe = pair.first;
+//		int ac = pair.second.ac, oj = pair.second.oj, timee = pair.second.timee;
+//		hek temphek;
+//		temphek.name = tempe, temphek.ac = ac, temphek.oj = oj, temphek.timee = timee;
+//		reslis.push_back(temphek);
+//	}
+//	sort(reslis.begin(), reslis.end(), cmpe);
+//	
+//	do { k = radem(1, 10000); } while (!k || k > 10000);
+//	cout << k << endl;
+//	writeStringToFile(to_string(ie) + ".in", to_string(k) + "\n", true);
+//	for (int i = 0; i < k; i++) {
+//		//²éÑ¯
+//		int sat;
+//		do { sat = radem(1, 2); } while (sat < 1 || sat>2);
+//		if (sat == 1) {
+//			int ran;
+//			do { ran = radem(1, n); } while (ran<1 || ran>n);
+//			writeStringToFile(to_string(ie) + ".in", to_string(sat)+" "+to_string(ran) + "\n", true);
+//			cout << sat << " " << ran << endl;
+//			cout << reslis[ran - 1].name<<endl;
+//			writeStringToFile(to_string(ie)+".out", reslis[ran - 1].name + "\n", true);
+//		}
+//		else {
+//			writeStringToFile(to_string(ie) + ".in", to_string(sat) + "\n", true);
+//			cout << sat << endl;
+//			cout << reslis[0].name << " " << reslis[0].ac << " " << reslis[0].oj << endl;
+//			writeStringToFile(to_string(ie) + ".out", reslis[0].name + " " + to_string(reslis[0].ac)+ " "+ to_string(reslis[0].oj) + "\n", true);
+//		}
+//	}
+//	str.clear();
+//	reslis.clear();
+//}
+//int main(void) {
+//	ios::sync_with_stdio(false);
+//	cin.tie(nullptr);
+//	srand((unsigned)time(NULL));
+//	for (int i = 1; i < 11; i++) {
+//		do { n = radem(1, 63); } while (!n || n > 63);
+//
+//		do{m = radem(1, 1000);} while (m<n);
+//		cout << n << " " << m << endl;
+//		writeStringToFile(to_string(i) + ".in", to_string(n) + " " + to_string(m) + "\n", true);
+//		for (int p = 0; p < n; p++) {
+//			string namee;
+//			namee.push_back(distr[p]);
+//			cout << namee << endl << endl;
+//			int dirs;
+//			
+//			do { dirs = radem(0, 23); } while (dirs > 23);
+//			char th = thdir[dirs];
+//			
+//			int timee;
+//			do {timee = radem(0, 300); } while (timee>300);
+//			
+//			string state;
+//			if (timee <= 240) {
+//				do { dirs = radem(0, 1); } while(dirs < 0 || dirs>1);
+//				state = stadir[dirs];
+//			}
+//			else state = stadir[2];
+//
+//			he temm;
+//			temm.name = namee, temm.th = th, temm.timee = timee, temm.state = state;
+//			writeStringToFile(to_string(i) + ".in", namee+" "+th+" "+to_string(timee) + " " + state + "\n", true);
+//			cout << namee << " " << th << " " << timee << " " << state << endl;
+//			namee.clear();
+//			listt.push_back(temm);
+//		}
+//		for (int p = 0; p < m - n; p++) {
+//			int dirs;
+//			do { dirs = radem(1, n); } while (!dirs || dirs > n);
+//			string namee;
+//			namee.push_back(distr[dirs]);
+//
+//			do { dirs = radem(0, 23); } while (dirs > 23);
+//			char th = thdir[dirs];
+//
+//			int timee;
+//			do { timee = radem(0, 300); } while (timee>300);
+//
+//			string state;
+//			if (timee <= 240) {
+//				do { dirs = radem(0, 1); } while (dirs<0||dirs>1);
+//				state = stadir[dirs];
+//			}
+//			else state = stadir[2];
+//
+//			he temm;
+//			temm.name = namee, temm.th = th, temm.timee = timee, temm.state = state;
+//			cout << namee << " " << th << " " << timee << " " << state << endl;
+//			writeStringToFile(to_string(i) + ".in", namee + " " + th + " " + to_string(timee) + " " + state + "\n", true);
+//			listt.push_back(temm);
+//			namee.clear();
+//		}
+//		
+//		solveH(i);
+//
+//		listt.clear();
+//	}
+//	return 0;
+//}
 
-struct he {
-	string name;
-	char th;
-	int timee;
-	string state;
-};
 
-struct hek {
-	string name;
-	int ac;
-	int oj;
-	int timee = 0;
-};
-
-map<string, hak> str;
-vector<he> listt;
-vector<hek> reslis;
-
-bool cmp(he a, he b) {
-	return a.timee < b.timee;
+int n, k;
+vector<int> a;
+void solveF(int ie) {
+	sort(a.begin(), a.end());
+	int ke = 0,res = 0;
+	while (n >= a[ke]) {
+		n -= a[ke];
+		ke++;
+		res++;
+	}
+	cout << res << endl;
+	writeStringToFile(to_string(ie) + ".out", to_string(res) + "\n", true);
 }
 
-bool cmpe(hek a, hek b) {
-	if (a.ac != b.ac) {
-		return a.ac > b.ac;
-	}
-	if (a.timee != b.timee) {
-		return a.timee < b.timee;
-	}
-	return a.name < b.name;
-}
+int main(void)
+{
+	for (int fe = 1; fe <= 10; fe++) {
 
-void solveH(int ie) {
-	sort(listt.begin(), listt.end(), cmp);
-	for (auto& pair : listt)
-	{
-		string lab = pair.name;
-		if (pair.state == "OJ")str[lab].oj++;
-		else if (pair.state == "AC") {
-			if (!str[lab].bj[pair.th - 'A'])
-			{
-				str[lab].ac++;
-				str[lab].timee += pair.timee + str[lab].fa[pair.th - 'A'];
-				str[lab].bj[pair.th - 'A'] = 1;
-			}
+		do { n = radem(1, 10000); } while (!n);
+		do { k = radem(1, 1000); } while (!k);
+		writeStringToFile(to_string(fe) + ".in", to_string(n) + " " + to_string(k) + "\n", true);
+		for (int i = 0; i < k; i++)
+		{
+			int temp;
+			do {
+				temp = radem(1, 1000);
+			} while (!temp);
+			writeStringToFile(to_string(fe) + ".in", to_string(temp) + " ", true);
+			cout << temp << " ";
+			a.push_back(temp);
 		}
-		else {
-			str[lab].fa[pair.th - 'A'] += 20;
-		}
+		cout << endl;
+		solveF(fe);
+		a.clear();
 	}
-	for (auto& pair : str) {
-		string tempe = pair.first;
-		int ac = pair.second.ac, oj = pair.second.oj, timee = pair.second.timee;
-		hek temphek;
-		temphek.name = tempe, temphek.ac = ac, temphek.oj = oj, temphek.timee = timee;
-		reslis.push_back(temphek);
-	}
-	sort(reslis.begin(), reslis.end(), cmpe);
-	
-	do { k = radem(1, 10000); } while (!k || k > 10000);
-	cout << k << endl;
-	writeStringToFile(to_string(ie) + ".in", to_string(k) + "\n", true);
-	for (int i = 0; i < k; i++) {
-		//²éÑ¯
-		int sat;
-		do { sat = radem(1, 2); } while (sat < 1 || sat>2);
-		if (sat == 1) {
-			int ran;
-			do { ran = radem(1, n); } while (ran<1 || ran>n);
-			writeStringToFile(to_string(ie) + ".in", to_string(sat)+" "+to_string(ran) + "\n", true);
-			cout << sat << " " << ran << endl;
-			cout << reslis[ran - 1].name<<endl;
-			writeStringToFile(to_string(ie)+".out", reslis[ran - 1].name + "\n", true);
-		}
-		else {
-			writeStringToFile(to_string(ie) + ".in", to_string(sat) + "\n", true);
-			cout << sat << endl;
-			cout << reslis[0].name << " " << reslis[0].ac << " " << reslis[0].oj << endl;
-			writeStringToFile(to_string(ie) + ".out", reslis[0].name + " " + to_string(reslis[0].ac)+ " "+ to_string(reslis[0].oj) + "\n", true);
-		}
-	}
-	str.clear();
-	reslis.clear();
-}
-int main(void) {
-	ios::sync_with_stdio(false);
-	cin.tie(nullptr);
-	srand((unsigned)time(NULL));
-	for (int i = 1; i < 11; i++) {
-		do { n = radem(1, 63); } while (!n || n > 63);
-
-		do{m = radem(1, 1000);} while (m<n);
-		cout << n << " " << m << endl;
-		writeStringToFile(to_string(i) + ".in", to_string(n) + " " + to_string(m) + "\n", true);
-		for (int p = 0; p < n; p++) {
-			string namee;
-			namee.push_back(distr[p]);
-			cout << namee << endl << endl;
-			int dirs;
-			
-			do { dirs = radem(0, 23); } while (dirs > 23);
-			char th = thdir[dirs];
-			
-			int timee;
-			do {timee = radem(0, 300); } while (timee>300);
-			
-			string state;
-			if (timee <= 240) {
-				do { dirs = radem(0, 1); } while(dirs < 0 || dirs>1);
-				state = stadir[dirs];
-			}
-			else state = stadir[2];
-
-			he temm;
-			temm.name = namee, temm.th = th, temm.timee = timee, temm.state = state;
-			writeStringToFile(to_string(i) + ".in", namee+" "+th+" "+to_string(timee) + " " + state + "\n", true);
-			cout << namee << " " << th << " " << timee << " " << state << endl;
-			namee.clear();
-			listt.push_back(temm);
-		}
-		for (int p = 0; p < m - n; p++) {
-			int dirs;
-			do { dirs = radem(1, n); } while (!dirs || dirs > n);
-			string namee;
-			namee.push_back(distr[dirs]);
-
-			do { dirs = radem(0, 23); } while (dirs > 23);
-			char th = thdir[dirs];
-
-			int timee;
-			do { timee = radem(0, 300); } while (timee>300);
-
-			string state;
-			if (timee <= 240) {
-				do { dirs = radem(0, 1); } while (dirs<0||dirs>1);
-				state = stadir[dirs];
-			}
-			else state = stadir[2];
-
-			he temm;
-			temm.name = namee, temm.th = th, temm.timee = timee, temm.state = state;
-			cout << namee << " " << th << " " << timee << " " << state << endl;
-			writeStringToFile(to_string(i) + ".in", namee + " " + th + " " + to_string(timee) + " " + state + "\n", true);
-			listt.push_back(temm);
-			namee.clear();
-		}
-		
-		solveH(i);
-
-		listt.clear();
-	}
-	return 0;
 }
